@@ -19,15 +19,13 @@
 int reverse(int x)
 {
     int flag = 0;
-    int arr[10] = {0};
-    int index = 0;
     int ret = 0;
 
     if (0 == x)
         return x;
+    if (-2147483648 == x)
+        return 0;
 
-    
-    
     if (x < 0)
     {
         flag = 1;
@@ -36,14 +34,11 @@ int reverse(int x)
 
     do
     {
-        arr[index++] = x % 10;
+        ret = ret * 10 + x % 10;
         x = x / 10;
+        if (ret > 214748364 && x != 0)
+            return 0;
     } while (x);
-
-    for (int i = 0; i < index; i++)
-    {
-        ret = ret * 10 + arr[i];
-    }
 
     if (flag == 1)
         ret = -ret;
@@ -51,10 +46,9 @@ int reverse(int x)
     return ret;
 }
 
-int main()
+int main(int argc, char *argv[])
 {
-    printf("%d\n", reverse(123));
-    printf("%d\n", reverse(-123));
+    printf("%d\n", reverse(1563847412));
     
     return 0;
 }
