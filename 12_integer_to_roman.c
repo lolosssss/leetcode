@@ -3,7 +3,7 @@
  *               Given an integer, convert it to a roman numeral.
  *               Input is guaranteed to be within the range from 1 to 3999.
  * Author      : Evan Lau
- * Date        : 2015.11.01
+ * Date        : 2016.02.25
  */
 
 #include <stdio.h>
