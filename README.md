@@ -16,3 +16,6 @@ LeetCode in C. (Updating)
 14. longest common prefix
 15. 3 sum
 16. 3 sum closest
+172. factorial trailing zeroes
+190. reverse bits
+191. number of 1 bits
