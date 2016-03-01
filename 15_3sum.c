@@ -128,6 +128,10 @@ int main()
         printf("(%d, %d, %d)\n", res[i][0], res[i][1], res[i][2]);
     }
 
+    for (int i = 0; i < size; i++)
+    {
+        free(res[i]);
+    }
     free(res);
 
     return 0;
