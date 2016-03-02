@@ -34,7 +34,7 @@ void letterComb(char** res, int* index, int* arr, int digitsSize, int depth, int
 
     if (depth == digitsSize)
     {
-        res[*index][digitsSize] = '\0';
+        res[*index][depth] = '\0';
         (*index)++;
         return;
     }
@@ -61,8 +61,11 @@ char** letterCombinations(char* digits, int* returnSize)
     int arr[16];
     int index = 0;
 
+    if (strlen(digits) == 0)
+        return NULL;
+
     // Convert array of char to array of int
-    for (int i = 0; i < (int)strlen(digits); i++)
+    for (int i = 0; i < strlen(digits); i++)
     {
         if ((digits[i] - '0' != 1) && (digits[i] - '0' != 0))
         {
@@ -90,11 +93,17 @@ char** letterCombinations(char* digits, int* returnSize)
 
 int main()
 {
-    char arr[] = "273";
+    char arr[] = "";
     int size;
     char **res;
 
     res = letterCombinations(arr, &size);
+
+    if (res == NULL)
+    {
+        printf("Empty\n");
+        return 0;
+    }
 
     printf("Size : %d\n", size);
     for (int i = 0; i < size; i++)
