@@ -17,6 +17,7 @@ LeetCode in C. (Updating)
 15. 3 sum  
 16. 3 sum closest 
 17. letter combinations of a phone number
+18. 4 sum
 172. factorial trailing zeroes  
 190. reverse bits  
 191. number of 1 bits  
