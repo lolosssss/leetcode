@@ -22,6 +22,7 @@ LeetCode in C. (Updating)
 20. valid parentheses
 21. merge two sorted lists
 22. generate parentheses
+23. merge k sorted lists
 172. factorial trailing zeroes  
 190. reverse bits  
 191. number of 1 bits  
