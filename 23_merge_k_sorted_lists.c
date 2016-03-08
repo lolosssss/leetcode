@@ -16,80 +16,60 @@ struct ListNode {
 
 struct ListNode* mergeTwoLists(struct ListNode *l1, struct ListNode *l2)
 {
-    struct ListNode *p = l1;
-    struct ListNode *q = l2;
     struct ListNode *head = (struct ListNode*)malloc(sizeof(struct ListNode));
-    struct ListNode *ptr = head;
-    struct ListNode *tmp = head;
+    struct ListNode *cur = head;
 
-    if (l1 == NULL && l2 != NULL)
+    while (l1 && l2)
     {
-        return l2;
-    }
-    if (l1 != NULL && l2 == NULL)
-    {
-        return l1;
-    }
-    if (l1 == NULL && l2 == NULL)
-    {
-        return NULL;
-    }
-
-    if (p->val <= q->val)
-    {
-        ptr->val = p->val;
-        p = p->next;
-    }
-    else
-    {
-        ptr->val = q->val;
-        q = q->next;
-    }
-
-    while (p != NULL && q != NULL)
-    {
-        tmp = (struct ListNode*)malloc(sizeof(struct ListNode));
-        ptr->next = tmp;
-        ptr = ptr->next;
-        if (p->val <= q->val)
+        if (l1->val > l2->val)
         {
-            ptr->val = p->val;
-            p = p->next;
+            cur->next = l2;
+            l2 = l2->next;
         }
         else
         {
-            ptr->val = q->val;
-            q = q->next;
+            cur->next = l1;
+            l1 = l1->next;
         }
+        cur = cur->next;
     }
 
-    if (p == NULL)
+    if (l1)
     {
-        while (q != NULL)
-        {
-            tmp = (struct ListNode*)malloc(sizeof(struct ListNode));
-            ptr->next = tmp;
-            ptr = ptr->next;
-            ptr->val = q->val;
-            q = q->next;
-        }
+        cur->next = l1;
     }
-
-    if (q == NULL)
+    else
     {
-        while (p != NULL)
-        {
-            tmp = (struct ListNode*)malloc(sizeof(struct ListNode));
-            ptr->next = tmp;
-            ptr = ptr->next;
-            ptr->val = p->val;
-            p = p->next;
-        }
+        cur->next = l2;
     }
 
-    ptr->next = NULL;
+    return head->next;
+}
 
-    return head;
+struct ListNode* merge(struct ListNode* lists[], int beg, int end)
+{
+    if (beg > end)
+        return NULL;
+    if (beg == end)
+        return lists[beg];
+
+    int mid = (beg + end) / 2;
+    struct ListNode *left = merge(lists, beg, mid);
+    struct Listnode *right = merge(lists, mid, end);
+
+    return mergeTwoLists(left, right);
+}
+
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     struct ListNode *next;
+ * };
+ */
+struct ListNode* mergeKLists(struct ListNode** lists, int listsSize)
+{
+    return merge(lists, 0, k - 1);
 }
 
 struct ListNode* createList(int *nums, int numsSize)
@@ -166,31 +146,7 @@ void freeList(struct ListNode *head)
     head = NULL;
 }
 
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     struct ListNode *next;
- * };
- */
-struct ListNode* mergeKLists(struct ListNode** lists, int listsSize)
-{
-    struct ListNode* head = NULL;
 
-    if (listsSize == 1)
-    {
-        return lists[0];
-    }
-
-    head = mergeTwoLists(lists[0], lists[1]);
-
-    for (int i = 2; i < listsSize; i++)
-    {
-        head = mergeTwoLists(head, lists[i]);
-    }
-
-    return head;
-}
 
 int main(void)
 {
