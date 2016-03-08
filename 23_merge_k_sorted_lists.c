@@ -55,7 +55,7 @@ struct ListNode* merge(struct ListNode* lists[], int beg, int end)
 
     int mid = (beg + end) / 2;
     struct ListNode *left = merge(lists, beg, mid);
-    struct Listnode *right = merge(lists, mid, end);
+    struct ListNode *right = merge(lists, mid, end);
 
     return mergeTwoLists(left, right);
 }
@@ -69,7 +69,7 @@ struct ListNode* merge(struct ListNode* lists[], int beg, int end)
  */
 struct ListNode* mergeKLists(struct ListNode** lists, int listsSize)
 {
-    return merge(lists, 0, k - 1);
+    return merge(lists, 0, listsSize - 1);
 }
 
 struct ListNode* createList(int *nums, int numsSize)
