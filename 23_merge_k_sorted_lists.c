@@ -177,6 +177,11 @@ struct ListNode* mergeKLists(struct ListNode** lists, int listsSize)
 {
     struct ListNode* head = NULL;
 
+    if (listsSize == 1)
+    {
+        return lists[0];
+    }
+
     head = mergeTwoLists(lists[0], lists[1]);
 
     for (int i = 2; i < listsSize; i++)
@@ -193,8 +198,10 @@ int main(void)
     int arr2[6] = {12, 8, 3, 7, 0, 9};
     int arr3[3] = {0, 0, 0};
     int arr4[6] = {5, 2, 5, 0, 1, 10};
+    int arr5[4] = {-3, -3, -3, -1};
 
     struct ListNode *lists[4];
+    struct ListNode *list[1];
     struct ListNode *res = NULL;
 
     lists[0] = createList(arr1, 5);
@@ -202,12 +209,14 @@ int main(void)
     lists[2] = createList(arr3, 3);
     lists[3] = createList(arr4, 6);
 
+    list[0] = createList(arr5, 4);
+
     lists[0] = sortList(lists[0]);
     lists[1] = sortList(lists[1]);
     lists[2] = sortList(lists[2]);
     lists[3] = sortList(lists[3]);
 
-    res = mergeKLists(lists, 4);
+    res = mergeKLists(list, 1);
     printList(res);
 
     return 0;
