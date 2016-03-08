@@ -46,7 +46,7 @@ struct ListNode* mergeTwoLists(struct ListNode *l1, struct ListNode *l2)
     return head->next;
 }
 
-struct ListNode* merge(struct ListNode* lists[], int beg, int end)
+struct ListNode* merge(struct ListNode** lists, int beg, int end)
 {
     if (beg > end)
         return NULL;
@@ -55,7 +55,7 @@ struct ListNode* merge(struct ListNode* lists[], int beg, int end)
 
     int mid = (beg + end) / 2;
     struct ListNode *left = merge(lists, beg, mid);
-    struct ListNode *right = merge(lists, mid, end);
+    struct ListNode *right = merge(lists, mid + 1, end);
 
     return mergeTwoLists(left, right);
 }
@@ -78,6 +78,9 @@ struct ListNode* createList(int *nums, int numsSize)
     struct ListNode *head = NULL;
     struct ListNode *tmp = NULL;
     struct ListNode *cur = NULL;
+
+    if (numsSize == 0)
+        return NULL;
 
     cur = (struct ListNode *)malloc(sizeof(struct ListNode));
     cur->val = nums[cnt++];
@@ -102,6 +105,9 @@ struct ListNode* sortList(struct ListNode *head)
     int tmp;
     struct ListNode *p = NULL;
     struct ListNode *q = NULL;
+
+    if (head == NULL)
+        return NULL;
 
     for (p = head; p->next != NULL; p = p->next)
     {
@@ -150,29 +156,19 @@ void freeList(struct ListNode *head)
 
 int main(void)
 {
-    int arr1[5] = {5, 4, 3, 2, 1};
-    int arr2[6] = {12, 8, 3, 7, 0, 9};
-    int arr3[3] = {0, 0, 0};
-    int arr4[6] = {5, 2, 5, 0, 1, 10};
-    int arr5[4] = {-3, -3, -3, -1};
+    int arr1[0] = {};
+    int arr2[0] = {};
 
-    struct ListNode *lists[4];
-    struct ListNode *list[1];
+    struct ListNode *lists[2];
     struct ListNode *res = NULL;
 
-    lists[0] = createList(arr1, 5);
-    lists[1] = createList(arr2, 6);
-    lists[2] = createList(arr3, 3);
-    lists[3] = createList(arr4, 6);
-
-    list[0] = createList(arr5, 4);
+    lists[0] = createList(arr1, 0);
+    lists[1] = createList(arr2, 0);
 
     lists[0] = sortList(lists[0]);
     lists[1] = sortList(lists[1]);
-    lists[2] = sortList(lists[2]);
-    lists[3] = sortList(lists[3]);
 
-    res = mergeKLists(list, 1);
+    res = mergeKLists(lists, 2);
     printList(res);
 
     return 0;
