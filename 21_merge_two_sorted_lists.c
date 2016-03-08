@@ -99,6 +99,9 @@ struct ListNode* createList(int *nums, int numsSize)
     struct ListNode *tmp = NULL;
     struct ListNode *cur = NULL;
 
+    if (numsSize == 0)
+        return NULL;
+
     cur = (struct ListNode *)malloc(sizeof(struct ListNode));
     cur->val = nums[cnt++];
     head = cur;
@@ -122,6 +125,9 @@ struct ListNode* sortList(struct ListNode *head)
     int tmp;
     struct ListNode *p = NULL;
     struct ListNode *q = NULL;
+
+    if (head == NULL)
+        return NULL;
 
     for (p = head; p->next != NULL; p = p->next)
     {
