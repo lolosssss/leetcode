@@ -30,17 +30,9 @@ struct ListNode* mergeTwoLists(struct ListNode *l1, struct ListNode *l2)
     struct ListNode *ptr = head;
     struct ListNode *tmp = head;
 
-    if (l1 == NULL && l2 != NULL)
+    if (!l1 || !l2)
     {
-        return l2;
-    }
-    if (l1 != NULL && l2 == NULL)
-    {
-        return l1;
-    }
-    if (l1 == NULL && l2 == NULL)
-    {
-        return NULL;
+        return l1 ? l1 : l2;
     }
 
     if (p->val <= q->val)
