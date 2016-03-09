@@ -24,6 +24,7 @@ LeetCode in C. (Updating)
 22. generate parentheses
 23. merge k sorted lists
 24. swap nodes in pairs
+26. remove duplicates from sorted array
 172. factorial trailing zeroes  
 190. reverse bits  
 191. number of 1 bits  
