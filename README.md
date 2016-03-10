@@ -24,6 +24,7 @@ LeetCode in C. (Updating)
 22. generate parentheses
 23. merge k sorted lists
 24. swap nodes in pairs
+25. reverse nodes in k group
 26. remove duplicates from sorted array
 27. remove element
 28. implement strStr()
