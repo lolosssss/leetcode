@@ -28,6 +28,7 @@ LeetCode in C. (Updating)
 26. remove duplicates from sorted array
 27. remove element
 28. implement strStr()
+29. divide two integers
 172. factorial trailing zeroes  
 190. reverse bits  
 191. number of 1 bits  
