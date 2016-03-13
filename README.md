@@ -30,5 +30,6 @@ LeetCode in C. (Updating)
 28. implement strStr()
 29. divide two integers
 172. factorial trailing zeroes  
+189. rotate array
 190. reverse bits  
 191. number of 1 bits  
