@@ -1,6 +1,6 @@
 /**
  * Description : Add Two Numbers
-                 You are given two linked lists representing two non-negative 
+                 You are given two linked lists representing two non-negative
                  numbers. The digits are stored in reverse order and each and
                  each of their nodes contain a single digit. Add the two numbers
                  and return it as a linked list.
@@ -91,8 +91,7 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2)
 struct ListNode* createList(int *arr, int len)
 {
     struct ListNode *ret = NULL;
-    struct ListNode *tmp = NULL;
-    
+
     ret = (struct ListNode*)malloc(sizeof(struct ListNode) * len);
 
     for (int i = 0; i < len - 1; i++)
@@ -115,10 +114,10 @@ void printResult(struct ListNode *result)
 
     while (tmp != NULL)
     {
-        printf("%d\n", tmp->val);
+        printf("%d -> ", tmp->val);
         tmp = tmp->next;
     }
-    printf("\n");
+    printf("NULL\n");
 }
 
 int main()
@@ -138,7 +137,7 @@ int main()
     result = addTwoNumbers(l1, l2);
 
     printResult(result);
-    
+
     return 0;
 }
 
