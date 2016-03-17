@@ -1,19 +1,19 @@
 /**
  * Description : ZigZag Conversion
- *               The string "PAYPALISHIRING" is written in a zigzag pattern on 
- *               a given number of rows like this:( you may want to display this 
+ *               The string "PAYPALISHIRING" is written in a zigzag pattern on
+ *               a given number of rows like this:( you may want to display this
  *               pattern in fixed font for better legibility)
  *               P   A   H   N
- *               A P L S I I G 
+ *               A P L S I I G
  *               Y   I   R
  *
  *               A     G     M
  *               B   F H   L N
  *               C E   I K   O
- *               D     J     P 
+ *               D     J     P
  *
  *               And then read line by line: "PAHNAPLSIIGYIR"
- *               Write the code that will take a string and make this vonversion 
+ *               Write the code that will take a string and make this vonversion
  *               given a number of rows:
  *               string convert(string text, int nRows);
  *               convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
@@ -37,7 +37,7 @@ char* convert(char* s, int numRows)
 
     if (numRows == 1)
         return s;
-    
+
     while (*ptr++ != '\0')
         len++;
 
@@ -65,19 +65,16 @@ char* convert(char* s, int numRows)
     return ret;
 }
 
-int main(int argc, char *argv[])
+int main(void)
 {
-    char src[] = "hsscheopebsyzagbpcwcbmvuwmrgpixwarajvpycssartgskkqomcjiaxzgnhfljxmsudswvlxogfgsqygebsm";
     char *res = NULL;
-    char sr[] = "123";
+    char src[] = "PAYPALISHIRING";
 
-    printf("%s\n", sr);
-    res = convert(sr, 68);
-    
+    printf("%s\n", src);
+    res = convert(src, 3);
+
     printf("%s\n", res);
-    free(res);
-    res = NULL;
-    
+
     return 0;
 }
 

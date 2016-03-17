@@ -1,7 +1,7 @@
 /**
  * Description : Longest Palindromic Substring
  *               Given a string S, find the longest palindromic Substring in S.
- *               You may assume that the maximum length of S is 1000, and there 
+ *               You may assume that the maximum length of S is 1000, and there
  *               exists one unique longest palindromic substring.
  * Author      : Evan Lau
  * Date        : 2015.10.14
@@ -9,7 +9,7 @@
 
 #include <stdio.h>
 
-/*
+
 char* longestPalindrome(char* s)
 {
     int max = 0;
@@ -51,20 +51,15 @@ char* longestPalindrome(char* s)
     *tail = '\0';
 
     return ptr;
-}*/
-
-char* longestPalindrome(char* s)
-{
-    
 }
 
 int main()
 {
-    char src[] = "abb";
+    char src[] = "abcdeedcjif";
     char *result = NULL;
     result = longestPalindrome(src);
     printf("%s\n", result);
-    
+
     return 0;
 }
 

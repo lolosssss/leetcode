@@ -13,7 +13,7 @@ bool isPalindrome(int x)
 {
     int y = 0;
     int z = x;
-    
+
     if (x < 0)
         return false;
 
@@ -31,13 +31,13 @@ bool isPalindrome(int x)
 
 int main()
 {
-    int n = -1321;
+    int n = 12321;
 
     if (isPalindrome(n))
         printf("Yes\n");
     else
         printf("No\n");
-    
+
     return 0;
 }
 

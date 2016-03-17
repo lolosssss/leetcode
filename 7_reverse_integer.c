@@ -3,11 +3,11 @@
  *               Reverse digits of an integer.
  * Example     : x = 123, return 321
  *               x = -123, return -321
- * Spoilers    : Here are some good questions to ask before coding. 
+ * Spoilers    : Here are some good questions to ask before coding.
  *               Bonus points for you if you have already thought throught this!
- *               Did you notice that the reversed integer might overflow? Assume 
+ *               Did you notice that the reversed integer might overflow? Assume
  *               the input is a 32-bit integer, then the reverse of 10000000003
- *               overflows. How should you handle such cases? For the purpose of 
+ *               overflows. How should you handle such cases? For the purpose of
  *               this problem, assume that your function returns 0 when the reversed
  *               integer overflows.
  * Author      : Evan Lau
@@ -48,8 +48,8 @@ int reverse(int x)
 
 int main(int argc, char *argv[])
 {
-    printf("%d\n", reverse(1563847412));
-    
+    printf("%d\n", reverse(123456));
+
     return 0;
 }
 
