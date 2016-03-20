@@ -34,6 +34,7 @@
 28 . implement strStr()  
 29 . divide two integers  
 31 . next permutation  
+33 . search in rotated sorted array
 
 ***  
 
