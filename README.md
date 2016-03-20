@@ -33,10 +33,12 @@
 27 . remove element  
 28 . implement strStr()  
 29 . divide two integers  
+31 . next permutation  
 
 ***  
 
 ##### 100~200  
+
 172 . factorial trailing zeroes  
 189 . rotate array
 190 . reverse bits  
