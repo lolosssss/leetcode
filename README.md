@@ -35,7 +35,8 @@
 29 . divide two integers  
 31 . next permutation  
 33 . search in rotated sorted array(hard?)  
-34 . search for a range
+34 . search for a range  
+35 . search insert position  
 
 ***  
 
