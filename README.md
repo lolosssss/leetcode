@@ -37,6 +37,7 @@
 33 . search in rotated sorted array(hard?)  
 34 . search for a range  
 35 . search insert position  
+36 . valid Sudoku  
 
 ***  
 
