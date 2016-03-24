@@ -2,7 +2,7 @@
 
 ***  
 
-##### 1~100  
+##### 1~99  
 
 1 . two sum  
 2 . add two numbers  
@@ -41,9 +41,18 @@
 
 ***  
 
-##### 100~200  
+##### 100~199  
 
 172 . factorial trailing zeroes  
 189 . rotate array
 190 . reverse bits  
 191 . number of 1 bits  
+
+***  
+
+##### 200~299  
+
+***  
+
+##### 300~399  
+
