@@ -16,8 +16,8 @@
 
 char* countAndSay(int n)
 {
-    char *ret = (char *)malloc(sizeof(char) * 1024);
-    char buffer[1024];
+    char *ret = (char *)malloc(sizeof(char) * 8192);
+    char buffer[8192];
     char last;
     int cnt = 0;
     int i = 0;
@@ -68,7 +68,7 @@ char* countAndSay(int n)
 int main(void)
 {
     char *res = NULL;
-    for (int i = 1; i < 21; i++)
+    for (int i = 1; i < 30; i++)
     {
         res = countAndSay(i);
         printf("%d : %s\n", i, res);
