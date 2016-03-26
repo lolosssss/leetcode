@@ -38,7 +38,8 @@
 34 . search for a range  
 35 . search insert position  
 36 . valid Sudoku  
-38 . count and say
+38 . count and say  
+58 . length of last word  
 
 ***  
 
