@@ -56,6 +56,7 @@
 
 206 . reverse linked list  
 292 . nim game  
+299 . bulls and cows  
 
 ***  
 
