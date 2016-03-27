@@ -19,7 +19,7 @@
 13 . roman to integer  
 14 . longest common prefix  
 15 . 3 sum  
-16 . 3 sum closest 
+16 . 3 sum closest  
 17 . letter combinations of a phone number  
 18 . 4 sum  
 19 . remove nth node from end of list  
@@ -46,7 +46,7 @@
 ##### 100~199  
 
 172 . factorial trailing zeroes  
-189 . rotate array
+189 . rotate array  
 190 . reverse bits  
 191 . number of 1 bits  
 
@@ -63,4 +63,5 @@
 
 ##### 300~399  
 
+303 . range sum query  
 338 . counting bits  
