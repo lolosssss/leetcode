@@ -40,6 +40,7 @@
 36 . valid Sudoku  
 38 . count and say  
 58 . length of last word  
+67 . add binary  
 
 ***  
 
