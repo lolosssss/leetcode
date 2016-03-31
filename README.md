@@ -67,4 +67,5 @@
 ##### 300~399  
 
 303 . range sum query  
+328 . odd even linked list  
 338 . counting bits  
