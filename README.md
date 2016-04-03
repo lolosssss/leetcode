@@ -48,6 +48,7 @@
 
 ##### 100~199  
 
+125 . valid palindrome  
 169 . majority element  
 172 . factorial trailing zeroes  
 189 . rotate array  
