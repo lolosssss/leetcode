@@ -62,6 +62,7 @@
 206 . reverse linked list  
 223 . rectangle area  
 242 . valid anagram  
+258 . add digits  
 278 . first bad version  
 283 . move zeroes  
 292 . nim game  
