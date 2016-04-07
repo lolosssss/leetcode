@@ -39,6 +39,7 @@
 34 . search for a range  
 35 . search insert position  
 36 . valid Sudoku  
+37 . Sudoku solver  
 38 . count and say  
 58 . length of last word  
 65 . valid number  
