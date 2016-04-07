@@ -191,5 +191,11 @@ int main(void)
     printf("\nSolved\n");
     printSudoku(board2);
 
+    for (int i = 0; i < 9; i++)
+    {
+        free(board[i]);
+        free(board2[i]);
+    }
+
     return 0;
 }
