@@ -43,6 +43,7 @@
 37 . Sudoku solver  
 38 . count and say  
 39 . combination sum  
+40 . combination sum II  
 58 . length of last word  
 65 . valid number  
 67 . add binary  
