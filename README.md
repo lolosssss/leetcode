@@ -33,6 +33,7 @@
 27 . remove element  
 28 . implement strStr()  
 29 . divide two integers  
+30 . substring with concatenation of all words  
 31 . next permutation  
 32 . longest valid parentheses  
 33 . search in rotated sorted array(hard?)  
