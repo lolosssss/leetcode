@@ -48,6 +48,7 @@
 58 . length of last word  
 65 . valid number  
 67 . add binary  
+83 . remove duplicates from sorted list  
 88 . merge sorted array  
 
 ***  
@@ -65,9 +66,12 @@
 
 ##### 200~299  
 
+
+203 . remove linked list elements  
 205 . isomorphic strings  
 206 . reverse linked list  
 223 . rectangle area  
+237 . delete node in a linked list  
 242 . valid anagram  
 258 . add digits  
 278 . first bad version  
