@@ -74,6 +74,7 @@
 237 . delete node in a linked list  
 242 . valid anagram  
 258 . add digits  
+268 . missing number  
 278 . first bad version  
 283 . move zeroes  
 292 . nim game  
