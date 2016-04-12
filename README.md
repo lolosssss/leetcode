@@ -72,6 +72,7 @@
 205 . isomorphic strings  
 206 . reverse linked list  
 223 . rectangle area  
+233 . number of digit one  
 234 . palindrome linked list  
 237 . delete node in a linked list  
 242 . valid anagram  
