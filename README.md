@@ -61,6 +61,7 @@
 189 . rotate array  
 190 . reverse bits  
 191 . number of 1 bits  
+198 . house robber  
 
 ***  
 
