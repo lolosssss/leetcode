@@ -46,6 +46,7 @@
 40 . combination sum II  
 41 . first missing positive  
 42 . trapping rain water  
+48 . rotate image  
 58 . length of last word  
 65 . valid number  
 67 . add binary  
