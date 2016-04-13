@@ -46,6 +46,7 @@
 40 . combination sum II  
 41 . first missing positive  
 42 . trapping rain water  
+46 . permutations  
 48 . rotate image  
 54 . spiral matrix  
 58 . length of last word  
