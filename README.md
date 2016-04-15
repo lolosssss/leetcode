@@ -48,6 +48,7 @@
 42 . trapping rain water  
 46 . permutations  
 48 . rotate image  
+51 . n queens  
 54 . spiral matrix  
 58 . length of last word  
 65 . valid number  
