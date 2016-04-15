@@ -48,6 +48,7 @@
 42 . trapping rain water  
 46 . permutations  
 48 . rotate image  
+50 . pow(x, n)  
 51 . n queens  
 52 . n queens II  
 54 . spiral matrix  
