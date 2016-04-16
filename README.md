@@ -52,6 +52,7 @@
 51 . n queens  
 52 . n queens II  
 54 . spiral matrix  
+55 . jump game  
 58 . length of last word  
 65 . valid number  
 67 . add binary  
