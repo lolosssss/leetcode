@@ -51,6 +51,7 @@
 50 . pow(x, n)  
 51 . n queens  
 52 . n queens II  
+53 . maximum subarray  
 54 . spiral matrix  
 55 . jump game  
 58 . length of last word  
