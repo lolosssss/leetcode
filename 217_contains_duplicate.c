@@ -10,54 +10,23 @@
 
 #include <stdio.h>
 #include <stdbool.h>
+#include <string.h>
 #include <assert.h>
-
-void quickSort(int* arr, int left, int right)
-{
-    int i, j, t;
-    int tmp;
-
-    if (left > right)
-    {
-        return;
-    }
-
-    tmp = arr[left];
-    i = left;
-    j = right;
-
-    while (i != j)
-    {
-        while (arr[j] >= tmp && i < j)
-            j--;
-        while (arr[i] <= tmp && i < j)
-            i++;
-
-        if (i < j)
-        {
-            t = arr[i];
-            arr[i] = arr[j];
-            arr[j] = t;
-        }
-    }
-
-    arr[left] = arr[i];
-    arr[i] = tmp;
-    quickSort(arr, left, i - 1);
-    quickSort(arr, i + 1, right);
-}
 
 bool containsDuplicate(int* nums, int numsSize)
 {
-    quickSort(nums, 0, numsSize - 1);
+    int arr[1000000];
+    int i;
 
-    int i = 1;
-    while (i < numsSize)
+    memset(arr, 0, 1000000);
+
+    for (i = 0; i < numsSize; i++)
     {
-        if (nums[i] == nums[i - 1])
+        if (arr[nums[i]] == 1)
             return true;
-        i++;
+        arr[nums[i]] = 1;
     }
+
     return false;
 }
 
