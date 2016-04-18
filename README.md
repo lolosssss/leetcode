@@ -104,3 +104,4 @@
 326 . power of three  
 328 . odd even linked list  
 338 . counting bits  
+342 . power of four  
