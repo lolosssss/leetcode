@@ -55,6 +55,7 @@
 53 . maximum subarray  
 54 . spiral matrix  
 55 . jump game  
+56 . merge intervals  
 57 . insert interval  
 58 . length of last word  
 62 . unique paths  
