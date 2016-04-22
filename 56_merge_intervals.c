@@ -26,7 +26,7 @@ struct Interval* merge(struct Interval* intervals, int intervalsSize,
 
     struct Interval* ret = (struct Interval*)malloc(sizeof(struct Interval) * intervalsSize);
 
-    memset(arr, 0, 10000);
+    memset(arr, 0, sizeof(arr));
 
     *returnSize = 0;
     for (i = 0; i < intervalsSize; i++)
