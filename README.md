@@ -110,3 +110,4 @@
 338 . counting bits  
 342 . power of four  
 343 . integer break  
+344 . reverse string  
