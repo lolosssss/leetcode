@@ -72,6 +72,7 @@
 155 . min stack  
 168 . Excel sheet column title  
 169 . majority element  
+171 . Excel sheet column number  
 172 . factorial trailing zeroes  
 189 . rotate array  
 190 . reverse bits  
