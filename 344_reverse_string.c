@@ -27,7 +27,7 @@ char* reverseString(char* s)
 
 int main(void)
 {
-    printf("%s : %s", "hello", reverseString("hello"));
+    printf("%s : %s\n", "hello", reverseString("hello"));
 
     return 0;
 }
