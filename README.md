@@ -57,6 +57,7 @@
 55 . jump game  
 56 . merge intervals  
 57 . insert interval  
+61 . rotate list  
 58 . length of last word  
 62 . unique paths  
 65 . valid number  
