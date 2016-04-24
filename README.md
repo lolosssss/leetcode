@@ -112,3 +112,4 @@
 342 . power of four  
 343 . integer break  
 344 . reverse string  
+345 . reverse vowels of a string  
