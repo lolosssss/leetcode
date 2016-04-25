@@ -71,6 +71,7 @@
 ##### 100~199  
 
 125 . valid palindrome  
+151 . reverse words in a string  
 155 . min stack  
 168 . Excel sheet column title  
 169 . majority element  
