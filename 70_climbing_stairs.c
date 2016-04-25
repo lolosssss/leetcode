@@ -12,7 +12,6 @@
 int climbStairs(int n)
 {
     int i = 0;
-    int ret = 0;
     int arr[n];
 
     if (n < 4)
