@@ -96,6 +96,7 @@
 233 . number of digit one  
 234 . palindrome linked list  
 237 . delete node in a linked list  
+240 . search a 2D matrix II  
 242 . valid anagram  
 258 . add digits  
 263 . ugly number  
