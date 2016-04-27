@@ -1,21 +1,19 @@
 /**
- * Description : Given an array of integers, find two numbers such that they 
+ * Description : Given an array of integers, find two numbers such that they
                  add up to a specific target number.
                  The function twoSum should return indices of the two numbers
                  such that they add up to the target, where index1 must be less
-                 than index2. Please note that your returned answers are not 
+                 than index2. Please note that your returned answers are not
                  zero-based.
                  You may assum that each input would have exactly one solution.
  * Example     : Input: numbers = {2, 7, 11, 15}, target = 9
                  Output: index1 = 1, index2 = 2.
  * Author      : Evan Lau
  * Date        : 2015.10.12
- */ 
+ */
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
-
 
 int *twoSum2(int *nums, int numSize, int target)
 {
@@ -25,7 +23,7 @@ int *twoSum2(int *nums, int numSize, int target)
     }
 
     int *ret = (int *)malloc(2 * sizeof(int));
-    
+
     for (int i = 0; i < numSize - 1; i++)
     {
         for (int j = i + 1; j < numSize; j++)
@@ -55,7 +53,6 @@ typedef struct linkedListNode
 
 void hashTableFree(plistNode hashTable, int primeNumber)
 {
-    int index = 0;
     plistNode tmp;
 
     for (int index = 0; index < primeNumber; index++)
@@ -162,24 +159,19 @@ int main()
     int num[100];
     int target = 155;
     int *res;
-    clock_t start;
-    clock_t end;
 
     for (int i = 0; i < 100; i++)
     {
         num[i] = i + 1;
     }
-    
-    start = clock();
-    res = twoSum2(num, sizeof(num), target);
-    end = clock();
-    
+
+    res = twoSum(num, 100, target);
+
     printf("%d, %d\n", *res, *(res + 1));
-    printf("time:%ld\n", end - start);
 
     free(res);
     res = NULL;
-    
+
     return 0;
 }
 

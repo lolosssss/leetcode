@@ -1,1 +1,7 @@
-a.out
+.DS_Store
+
+# Executables
+*.out
+
+# Debug files
+*.dSYM
