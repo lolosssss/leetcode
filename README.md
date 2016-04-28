@@ -71,6 +71,7 @@
 
 ##### 100~199  
 
+118 . Pascal's triangle  
 125 . valid palindrome  
 135 . candy  
 136 . single number  
