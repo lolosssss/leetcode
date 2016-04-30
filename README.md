@@ -73,6 +73,7 @@
 
 118 . Pascal's triangle  
 119 . Pascal's triangle II  
+120 . triangle  
 125 . valid palindrome  
 135 . candy  
 136 . single number  
