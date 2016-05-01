@@ -107,6 +107,7 @@
 263 . ugly number  
 268 . missing number  
 278 . first bad version  
+287 . find the duplicate number  
 283 . move zeroes  
 292 . nim game  
 299 . bulls and cows  
