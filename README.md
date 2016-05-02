@@ -57,10 +57,11 @@
 55 . jump game  
 56 . merge intervals  
 57 . insert interval  
-61 . rotate list  
 58 . length of last word  
+61 . rotate list  
 62 . unique paths  
 65 . valid number  
+66 . plus one  
 67 . add binary  
 70 . climbing stairs  
 81 . search in rotated sorted array II  
