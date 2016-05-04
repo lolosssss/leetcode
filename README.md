@@ -100,6 +100,7 @@
 206 . reverse linked list  
 217 . contains duplicate  
 223 . rectangle area  
+231 . power of two  
 233 . number of digit one  
 234 . palindrome linked list  
 237 . delete node in a linked list  
