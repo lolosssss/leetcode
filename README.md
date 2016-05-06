@@ -100,6 +100,7 @@
 205 . isomorphic strings  
 206 . reverse linked list  
 217 . contains duplicate  
+219 . contains duplicate II  
 223 . rectangle area  
 231 . power of two  
 233 . number of digit one  
