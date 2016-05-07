@@ -106,6 +106,7 @@
 233 . number of digit one  
 234 . palindrome linked list  
 237 . delete node in a linked list  
+239 . sliding window maximum  
 240 . search a 2D matrix II  
 242 . valid anagram  
 258 . add digits  
