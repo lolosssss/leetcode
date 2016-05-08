@@ -58,6 +58,7 @@
 56 . merge intervals  
 57 . insert interval  
 58 . length of last word  
+59 . spiral matrix II  
 61 . rotate list  
 62 . unique paths  
 65 . valid number  
