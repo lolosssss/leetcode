@@ -66,6 +66,7 @@
 67 . add binary  
 70 . climbing stairs  
 73 . set matrix zeroes  
+78 . subsets  
 81 . search in rotated sorted array II  
 83 . remove duplicates from sorted list  
 88 . merge sorted array  
