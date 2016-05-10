@@ -64,6 +64,7 @@
 65 . valid number  
 66 . plus one  
 67 . add binary  
+69 . sqrt(x)  
 70 . climbing stairs  
 73 . set matrix zeroes  
 78 . subsets  
