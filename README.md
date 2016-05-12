@@ -112,6 +112,7 @@
 239 . sliding window maximum  
 240 . search a 2D matrix II  
 242 . valid anagram  
+257 . binary tree paths  
 258 . add digits  
 263 . ugly number  
 268 . missing number  
