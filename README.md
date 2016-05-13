@@ -83,6 +83,7 @@
 125 . valid palindrome  
 135 . candy  
 136 . single number  
+144 . binary tree preorder traversal  
 151 . reverse words in a string  
 155 . min stack  
 168 . Excel sheet column title  
