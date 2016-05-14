@@ -83,6 +83,7 @@
 125 . valid palindrome  
 135 . candy  
 136 . single number  
+141 . linked list cycle  
 144 . binary tree preorder traversal  
 151 . reverse words in a string  
 155 . min stack  
