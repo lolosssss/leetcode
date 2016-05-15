@@ -46,6 +46,7 @@
 40 . combination sum II  
 41 . first missing positive  
 42 . trapping rain water  
+43 . multiply strings  
 45 . jump game II  
 46 . permutations  
 48 . rotate image  
