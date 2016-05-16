@@ -122,6 +122,7 @@
 278 . first bad version  
 287 . find the duplicate number  
 283 . move zeroes  
+290 . word pattern  
 292 . nim game  
 295 . find median from data stream  
 299 . bulls and cows  
