@@ -50,6 +50,7 @@
 44 . wildcard matching  
 45 . jump game II  
 46 . permutations  
+47 . permutations II  
 48 . rotate image  
 50 . pow(x, n)  
 51 . n queens  
