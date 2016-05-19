@@ -142,3 +142,4 @@
 343 . integer break  
 344 . reverse string  
 345 . reverse vowels of a string  
+349 . intersection of two arrays  
