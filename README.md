@@ -105,6 +105,7 @@
 
 202 . happy number  
 203 . remove linked list elements  
+204 . count primes  
 205 . isomorphic strings  
 206 . reverse linked list  
 217 . contains duplicate  
