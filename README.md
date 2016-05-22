@@ -64,6 +64,7 @@
 59 . spiral matrix II  
 61 . rotate list  
 62 . unique paths  
+64 . minimum path sum  
 65 . valid number  
 66 . plus one  
 67 . add binary  
