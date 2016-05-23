@@ -71,6 +71,7 @@
 69 . sqrt(x)  
 70 . climbing stairs  
 73 . set matrix zeroes  
+74 . search a 2D matrix  
 78 . subsets  
 81 . search in rotated sorted array II  
 83 . remove duplicates from sorted list  
