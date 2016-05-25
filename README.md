@@ -114,6 +114,7 @@
 217 . contains duplicate  
 219 . contains duplicate II  
 223 . rectangle area  
+226 . invert binary tree  
 231 . power of two  
 233 . number of digit one  
 234 . palindrome linked list  
