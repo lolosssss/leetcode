@@ -91,6 +91,7 @@
 136 . single number  
 141 . linked list cycle  
 144 . binary tree preorder traversal  
+145 . binary tree postorder traversal  
 151 . reverse words in a string  
 155 . min stack  
 168 . Excel sheet column title  
