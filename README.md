@@ -115,6 +115,7 @@
 206 . reverse linked list  
 217 . contains duplicate  
 219 . contains duplicate II  
+221 . maximal square  
 223 . rectangle area  
 226 . invert binary tree  
 231 . power of two  
