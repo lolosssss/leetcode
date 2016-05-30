@@ -128,6 +128,7 @@
 257 . binary tree paths  
 258 . add digits  
 263 . ugly number  
+264 . ugly number II  
 268 . missing number  
 278 . first bad version  
 287 . find the duplicate number  
